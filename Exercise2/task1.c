@@ -6,10 +6,10 @@ int main() {
     scanf("%d", &year);
 
     if (year % 100 == 0 && year % 400 == 0) {
-        printf("Skuddår\n"); 
+        printf("Leap year\n"); 
     } else if (year % 4 == 0) { 
-        printf("Skuddår\n");
+        printf("Leap year\n");
     } else {
-        printf("Ikke skuddår\n");
+        printf("Not leap year\n");
     }
 }
